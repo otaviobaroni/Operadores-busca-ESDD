@@ -21,11 +21,11 @@ int main() {
     printf("Elemento %d não encontrado.\n", key);
   }
 
-  printf("Vetor ordenado:\n");
-  for (int i = 0; i < SIZE; i++) {
-    printf("%d ", vetor[i]);
-  }
-  printf("\n");
+  // printf("Vetor ordenado:\n");
+  // for (int i = 0; i < SIZE; i++) {
+  //   printf("%d ", vetor[i]);
+  // }
+  // printf("\n");
 
   printf("Terminou\n");
   return 0;
