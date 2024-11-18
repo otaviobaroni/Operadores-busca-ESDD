@@ -6,9 +6,9 @@
 typedef struct {
   int kindex;
   int pos;
-} bloco_indice;
+} tabela_indice;
 
 void gerar_crescente(int arr[], int size);
 void merge_sort(int v[], int inicio, int fim);
-void cria_indice(int v[], bloco_indice indice[], int n, int tam_indice);
-int busca_sequencial_indexada(int v[], int n, bloco_indice indice[], int tam_indice, int x);
+void cria_indice(int v[], tabela_indice indice[], int n, int tam_indice);
+int busca_sequencial_indexada(int v[], int n, tabela_indice indice[], int tam_indice, int x);

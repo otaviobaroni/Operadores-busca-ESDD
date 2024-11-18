@@ -7,11 +7,9 @@
 int main() {
   int vetor[SIZE];
   int key = 38266;  
-  bloco_indice indice[INDEX_SIZE]; 
+  tabela_indice indice[INDEX_SIZE]; 
 
   gerar_crescente(vetor, SIZE);
-
-  cria_indice(vetor, indice, SIZE, INDEX_SIZE);
 
   int pos = busca_sequencial_indexada(vetor, SIZE, indice, INDEX_SIZE, key);
 
