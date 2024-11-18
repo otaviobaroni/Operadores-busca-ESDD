@@ -6,10 +6,16 @@
 
 int main() {
   int vetor[SIZE];
-  int key = 38266;  
+  int key = 4115826;  
   tabela_indice indice[INDEX_SIZE]; 
 
   gerar_crescente(vetor, SIZE);
+
+  // printf("Vetor ordenado:\n");
+  // for (int i = 0; i < SIZE; i++) {
+  //   printf("%d ", vetor[i]);
+  // }
+  // printf("\n");
 
   int pos = busca_sequencial_indexada(vetor, SIZE, indice, INDEX_SIZE, key);
 
@@ -18,12 +24,6 @@ int main() {
   } else {
     printf("Elemento %d não encontrado.\n", key);
   }
-
-  // printf("Vetor ordenado:\n");
-  // for (int i = 0; i < SIZE; i++) {
-  //   printf("%d ", vetor[i]);
-  // }
-  // printf("\n");
 
   printf("Terminou\n");
   return 0;
